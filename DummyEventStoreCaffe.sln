@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyEventStoreCaffe", "DummyEventStoreCaffe\DummyEventStoreCaffe.csproj", "{4150BCAC-93EF-4C6A-82E2-AA6DCBE6D932}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{07318E92-07D7-4B32-964A-549FBF3489B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4150BCAC-93EF-4C6A-82E2-AA6DCBE6D932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4150BCAC-93EF-4C6A-82E2-AA6DCBE6D932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4150BCAC-93EF-4C6A-82E2-AA6DCBE6D932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4150BCAC-93EF-4C6A-82E2-AA6DCBE6D932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07318E92-07D7-4B32-964A-549FBF3489B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07318E92-07D7-4B32-964A-549FBF3489B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07318E92-07D7-4B32-964A-549FBF3489B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07318E92-07D7-4B32-964A-549FBF3489B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1ACB909-CC87-42AE-B014-03FF77249CD3}
+	EndGlobalSection
+EndGlobal

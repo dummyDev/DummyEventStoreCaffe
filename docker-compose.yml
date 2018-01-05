@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dummyeventstorecaffe:
+    image: dummyeventstorecaffe
+    build:
+      context: .
+      dockerfile: DummyEventStoreCaffe\Dockerfile
